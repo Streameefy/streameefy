@@ -2,7 +2,7 @@ import { Movie, Testimonial, Genre, IptvPlan, PlayerPlan } from './types';
 
 export const GENRES: string[] = Object.values(Genre);
 export const LANGUAGES: string[] = ["Urdu", "English", "Hindi", "Punjabi"];
-export const SERVERS: string[] = ["Alpha-S1", "Bravo-S2", "Charlie-S3", "Delta-S4"];
+export const SERVERS: string[] = ["Streameefy", "VBox", "Xtv Live"];
 
 export const DEFAULT_MOVIES: Movie[] = [
   {
@@ -131,12 +131,12 @@ export const IPTV_PLANS: IptvPlan[] = [
   {
     name: "Standard",
     price: 15.99,
-    duration: "1 Month",
+    duration: "1 Year",
     features: [
       "24,000+ Live Channels",
       "150,000+ VOD",
       "Full HD & 4K Quality",
-      "2 Connections",
+      "1 Connection",
       "EPG Included",
       "Anti-Buffer Technology"
     ]
@@ -144,12 +144,12 @@ export const IPTV_PLANS: IptvPlan[] = [
   {
     name: "Premium",
     price: 39.99,
-    duration: "3 Months",
+    duration: "1 Year",
     features: [
       "24,000+ Live Channels",
       "150,000+ VOD",
       "Full HD & 4K Quality",
-      "3 Connections",
+      "1 Connection",
       "EPG Included",
       "Anti-Buffer Technology"
     ],
@@ -158,12 +158,12 @@ export const IPTV_PLANS: IptvPlan[] = [
     {
     name: "Ultimate",
     price: 69.99,
-    duration: "12 Months",
+    duration: "1 Year",
     features: [
       "24,000+ Live Channels",
       "150,000+ VOD",
       "Full HD & 4K Quality",
-      "4 Connections",
+      "2 Connections",
       "EPG Included",
       "Anti-Buffer Technology",
       "24/7 Priority Support"

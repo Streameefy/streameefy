@@ -42,8 +42,8 @@ const PolicyModal: React.FC<PolicyModalProps> = ({ isOpen, onClose }) => {
                 <p>We stand by the quality of our service. Here are our commitments to you:</p>
                 <ul className="list-disc list-inside space-y-3 pl-2">
                     <li><strong className="text-white">24-Hour Service Availability:</strong> Our support tools and services are guaranteed to be available 24 hours a day.</li>
-                    <li><strong className="text-white">Standard Warranty (26 Days):</strong> For most plans, we provide a 26-day service warranty from the date of purchase.</li>
-                    <li><strong className="text-white">Extended Warranty (11 Months):</strong> If you purchase a larger, long-term plan, your warranty is extended to 11 months, ensuring peace of mind.</li>
+                    <li><strong className="text-white">Standard Warranty (30 Days):</strong> For most plans, we provide a 26-day service warranty from the date of purchase.</li>
+                    <li><strong className="text-white">Extended Warranty (12 Months):</strong> If you purchase a larger, long-term plan, your warranty is extended to 11 months, ensuring peace of mind.</li>
                 </ul>
                 <p className="pt-2 text-sm text-gray-400 italic">This policy ensures that you receive a reliable and consistent streaming experience. For any issues, our support team is ready to assist.</p>
             </div>

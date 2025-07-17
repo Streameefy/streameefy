@@ -72,7 +72,6 @@ const IptvPricing: React.FC<IptvPricingProps> = ({ plans }) => {
               
               <div className="text-center mb-6">
                 <span className="text-4xl sm:text-5xl font-extrabold text-white">${plan.price.toFixed(2)}</span>
-                <span className="text-gray-400">/{plan.duration.split(' ')[1]}</span>
               </div>
               
               <ul className="space-y-4 mb-8 flex-grow">

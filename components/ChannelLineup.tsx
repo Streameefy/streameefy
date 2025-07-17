@@ -31,6 +31,12 @@ const ChannelLineup: React.FC<ChannelLineupProps> = ({ channels, ottPlatforms })
                 </div>
             ))}
         </div>
+        <div className="w-full text-center mt-4">
+          <span className="block text-lg font-semibold text-orange-400">We have 24k+ channels available</span>
+          <button className="mt-2 px-6 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded shadow font-semibold transition" onClick={() => {}}>
+            View More
+          </button>
+        </div>
 
         {/* OTT Platforms Section */}
         <div className="text-center mt-20">

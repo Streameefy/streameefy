@@ -69,7 +69,7 @@ const ContactForm: React.FC = () => {
                         <PaymentOption icon={<MobileWalletIcon />} label="EasyPaisa" />
                         <PaymentOption icon={<BankIcon />} label="Meezan" />
                         <PaymentOption icon={<BankIcon />} label="HBL" />
-                        <PaymentOption icon={<BankIcon />} label="MCB" />
+                        <PaymentOption icon={<BankIcon />} label="ABL" />
                     </div>
                 </div>
             </div>
