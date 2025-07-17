@@ -131,7 +131,7 @@ export const IPTV_PLANS: IptvPlan[] = [
   {
     name: "Standard",
     price: 15.99,
-    duration: "1 Year",
+    duration: "1 Month",
     features: [
       "24,000+ Live Channels",
       "150,000+ VOD",
@@ -144,7 +144,7 @@ export const IPTV_PLANS: IptvPlan[] = [
   {
     name: "Premium",
     price: 39.99,
-    duration: "1 Year",
+    duration: "3 Months",
     features: [
       "24,000+ Live Channels",
       "150,000+ VOD",
